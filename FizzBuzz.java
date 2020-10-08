@@ -2,13 +2,13 @@ import java.io.*;
 
 class FizzBuzz {
 	static final short  VAL_1 = 3,
-					    VAL_2 = 5,
-					    VAL_3 = 15,
-					    MIN   = 0,
-					    MAX   = 100;
+			    VAL_2 = 5,
+		            VAL_3 = 15,
+			    MIN   = 0,
+			    MAX   = 100;
 					    
 	static final String FIZ   = "Fizz",
-					    BUZ   = "Buzz";
+			    BUZ   = "Buzz";
 	 
 	
 	private static void fizzBuzz(short x, short y, short z) {
