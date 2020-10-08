@@ -27,6 +27,8 @@ def fizz_buzz(X, Y, Z):
 
 def fb_main():
 	exit_code = 0
+	
+	# as you can see I let the user define the values for the fizzbuzzer in this one. dunno why. Typical Fluffy, showing off even in the smallest of ways haha
 	val_1 = int(input("enter a NUMERIC value between 0 and 100 (ex 3) : "))
 	val_2 = int(input("And another                             (ex 5) : "))
 	val_3 = int(input("One more                               (ex 15) : "))
