@@ -14,7 +14,6 @@ void fizzBuzzer(short x, short y, short z);
 
 
 int main (void) {
-	
 	fizzBuzzer(VAL_1, VAL_2, VAL_3);
 	
 	return EXIT_SUCCESS;
