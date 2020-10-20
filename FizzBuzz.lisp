@@ -1,14 +1,7 @@
 ; Gangsta Lisp baby ^,..,^
+(setq X 3 Y 5 Z 15 mini 0 maxi 100 fiz "Fizz" buz "Buzz")
 
-(setq X 3)
-(setq Y 5)
-(setq Z 15)
-(setq min 0)
-(setq max 100)
-(setq fiz "Fizz")
-(setq buz "Buzz")
-
-(loop for cnt from min to max
+(loop for cnt from mini to maxi
       do(print cnt)
       do(cond
             ((zerop(mod cnt Z)) (write (concatenate 'string fiz buz)))
